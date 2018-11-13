@@ -1,0 +1,27 @@
+{
+  "name": "react-hot-loader-mjs-bug-repro",
+  "version": "0.1.0",
+  "description": "A replication of react-hot-loader breaking app using .mjs",
+  "repository": "git@github.com:QuentinRoy/Personality-Adaptation-Experiment.git",
+  "author": "Quentin Roy <quentin@quentinroy.fr>",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.3.12"
+  }
+}
